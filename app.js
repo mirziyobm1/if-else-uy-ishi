@@ -32,4 +32,37 @@
 // company.location.city="Namangan"
 // console.log(company)
 
-//if-
+//18
+// let book = { 
+//     title: "Sariq devni minib", 
+//     author: "X.To'xtaboyev", 
+//     year: 1970 
+// };
+// let newBook = {
+//     title: book.title,
+//     author: book.author
+// }; 
+// console.log(newBook);
+  
+//19
+// let stats={math:90,physics:85,name:"Ali"}
+// for (let key in stats){
+//     if(typeof stats[key]===Number){
+//         continue
+//     }
+//     else{
+//         console.log("Bu obeyktda hamma keylar son turida emas")
+//         break
+//     }
+// }
+
+//20
+// let students = [{name: "Laylo", group: { name: "JS-101" } },{ name: "Ali", group: { name: "JS-202" } }];
+// for(let i=0;i<2;i++){
+//     if(students[i].name==="Ali"){
+//         console.log(students[i].group.name)
+//     }
+//     else{
+//         continue
+//     }
+// }
